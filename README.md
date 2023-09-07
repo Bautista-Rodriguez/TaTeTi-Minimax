@@ -1,6 +1,6 @@
 # TaTeTi - Minimax
 ## Introducción
-Este programa emula el juego de Tres en raya (o TaTeTi) con el algoritmo `Minimax`.
+Este programa emula el juego de Tres en línea (o Tateti) con el algoritmo `Minimax`.
 El TaTeTi es un juego entre dos jugadores que consiste en colocar tres fichas en línea antes que el rival.
 
 ![MostrarImg1](readme-src/tateti1.png)
