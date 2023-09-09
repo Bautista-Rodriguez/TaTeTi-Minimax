@@ -11,9 +11,9 @@ Los jugadores se turnan para colocar una ficha en un tablero de 3x3 celdas. El p
 ## Estructura del código
 El programa permite al usuario elegir el valor de ficha con el que jugará; el valor de ficha restante será asignado al programa.
   
-Para insertar una ficha, el programa emplea el algoritmo `Minimax`, el cual evalua las siguientes posiciones a futuro posibles y, dependiendo el estado final de estas, devuelven un valor (0 si la posición termina en empate, 1 si la posición es ganadora para el programa, y -1 si la posición es ganadora para el jugador).
+Para insertar una ficha, el programa emplea el algoritmo `Minimax`, el cual evalúa las siguientes posiciones a futuro posibles y, dependiendo el estado final de estas, devuelven un valor (0 si la posición termina en empate, 1 si la posición es ganadora para el programa, y -1 si la posición es ganadora para el jugador).
 
-El algoritmo `Minimax` evalua la posición dependiendo el turno actual. 
+El algoritmo `Minimax` evalúa la posición dependiendo el turno actual:
 - En caso de que el turno sea del programa, busca lograr que la posición sea ganadora para el programa.
 - En caso de que el turno sea del jugador, busca lograr que la posición sea ganadora para el jugador.
 
