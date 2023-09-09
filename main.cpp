@@ -26,6 +26,7 @@ char tabla[3][3];
 
 int main()
 {
+    char c;
     int opcion, ch;
     while(true)
     {
@@ -50,7 +51,7 @@ int main()
         default:
             cout<<"ERROR: opcion invalida."<<endl;
         }
-        fflush(stdin);
+        while((c=getchar())!='\n' && c!=EOF);
         cout<<endl<<"Presione ENTER para continuar...";
         ch=getchar();
         system(CLEAR);
